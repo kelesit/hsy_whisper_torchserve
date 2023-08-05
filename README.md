@@ -18,6 +18,9 @@ download link
 "
 
 ### Model archive
+
+mkdir model_store
+
 torch-model -archiver --model-name whisper_test --model-file ./whisper/model.py --serialized-file base.en.pt --extra-file whisper,hsyhandler.py --export-path model_store --handler ./hsyhandler.py --version 1.0
 
 [details](https://pytorch.org/serve/getting_started.html#store-a-model)
